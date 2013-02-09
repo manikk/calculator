@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>282</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>282</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>282</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Manikk's Calculator</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>39</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>50</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_4">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>190</y>
+     <width>50</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_5">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>190</y>
+     <width>50</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>5</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_7">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>140</y>
+     <width>50</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>7</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_8">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>140</y>
+     <width>50</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>8</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>50</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>6</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_9">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>50</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>9</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>90</y>
+     <width>50</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>90</y>
+     <width>50</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>-</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_1">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>240</y>
+     <width>50</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>240</y>
+     <width>50</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_0">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>50</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_13">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>90</y>
+     <width>50</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>C</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_14">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>140</y>
+     <width>50</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>=</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btn_0</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>onNumberButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>49</x>
+     <y>267</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>60</x>
+     <y>291</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_1</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>onNumberButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>100</x>
+     <y>255</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>106</x>
+     <y>307</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>onNumberButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>150</x>
+     <y>251</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>257</x>
+     <y>300</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_5</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>onNumberButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>166</x>
+     <y>209</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>244</x>
+     <y>292</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>onNumberButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>112</x>
+     <y>218</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>9</x>
+     <y>231</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>onNumberButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>52</x>
+     <y>203</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>10</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_6</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>onNumberButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>46</x>
+     <y>157</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>9</x>
+     <y>146</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_9</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Dialog</receiver>
+   <slot>onNumberButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>34</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>10</x>
+     <y>84</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_7</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>onNumberButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>108</x>
+     <y>162</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1</x>
+     <y>135</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_8</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>onNumberButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>153</x>
+     <y>150</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>265</x>
+     <y>139</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>onPlusButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>117</x>
+     <y>99</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>263</x>
+     <y>40</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_9</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>onMinusButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>166</x>
+     <y>106</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>267</x>
+     <y>78</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_13</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>onClearButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>230</x>
+     <y>108</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>271</x>
+     <y>111</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_14</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>onEqualButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>232</x>
+     <y>206</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>267</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onNumberButtonClicked()</slot>
+  <slot>onPlusButtonClicked()</slot>
+  <slot>onMinusButtonClicked()</slot>
+  <slot>onClearButtonClicked()</slot>
+  <slot>onEqualButtonClicked()</slot>
+ </slots>
+</ui>
